@@ -53,5 +53,7 @@ if (st.button("Submit")):
     st.warning("b")
   if x == 2:
     st.error("c")
-  if x == 2:
+  if x == 3:
     st.error("d")
+  else
+    st.error("helloooo")
