@@ -31,9 +31,9 @@ if (st.button("Submit")):
   #x = x.resize(300, 300)
   x = np.expand_dims(x, axis=0)
 
-  images = np.vstack([x])
+  # images = np.vstack([x])
 #   classes = model.predict(images, batch_size=10)
-  classes = model.predict(images)
+  classes = model.predict(x)
   # print (classes)
   x = np.argmax(classes)
   
