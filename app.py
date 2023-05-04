@@ -28,7 +28,7 @@ if (st.button("Submit")):
   img = Image.open(files)
   
   x = img_to_array(img)
-  x = x.resize(300, 300)
+  #x = x.resize(300, 300)
   x = np.expand_dims(x, axis=0)
 
   images = np.vstack([x])
